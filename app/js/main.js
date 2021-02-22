@@ -20,7 +20,7 @@ const scrollMenu = function (e) {
 	let element = document.querySelector(".header");
 	let scrollTop = window.scrollY;
 
-	if (scrollTop > 100) {
+	if (scrollTop > 50) {
 		element.classList.add("active");
 	} else {
 		element.classList.remove("active");
