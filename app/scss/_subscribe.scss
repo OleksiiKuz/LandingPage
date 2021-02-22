@@ -1,0 +1,130 @@
+.subscribe {
+	padding: 126px 0 141px 0;
+
+	&__title {
+		text-align: center;
+		color: #30233D;
+		margin-bottom: 23px;
+	}
+
+	&__text {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 27px;
+		text-align: center;
+		color: #776C82;
+		margin-bottom: 45px;
+	}
+
+	&__action {
+		border-bottom: 3px solid #F4F4ED;
+		max-width: 558px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+	}
+
+	&__input {
+		width: 100%;
+		max-width: 331px;
+		height: 38px;
+		font-weight: 800;
+		font-size: 18px;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		color: #9B94A3;
+
+		&::placeholder {
+			font-weight: 800;
+			font-size: 18px;
+			letter-spacing: 4px;
+			text-transform: uppercase;
+			color: #9B94A3;
+		}
+	}
+
+	&__button {
+		padding: 10px 0px 10px 28px; 
+		font-weight: 800;
+		font-size: 12.6px;
+		line-height: 26px;
+		display: flex;
+		align-items: center;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		color: #F61067;
+		background: transparent;
+		position: relative;
+		background: linear-gradient(180deg, rgba(242, 242, 242, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+		display: flex;
+		align-items: center;
+		transition: .2s linear;
+
+		&:hover {
+			background: #fa5b98;
+			color: #fff;
+
+			.subscribe-icon {
+				fill: #fff;
+				stroke: #fff;
+			}
+		}
+
+		span {
+			margin-left: 20px;
+			margin-top: 10px;
+			padding-right: 27px;		
+		}
+	}
+}
+
+.subscribe-icon {
+	width: 27px;
+	height: 27px;
+	stroke: #F61067;
+	transition: .2s linear;
+}
+
+@media (max-width: 1200px) {
+	.subscribe {
+		padding: 40px 20px 40px 20px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.subscribe__action {
+		padding-bottom: 6px;
+	}
+	.subscribe__button {
+		padding: 10px 0px 10px 4px;
+		font-weight: 800;
+		font-size: 0;
+		letter-spacing: 2px;
+		background: none;
+		position: absolute;
+		right: 30px;
+
+		span {
+			margin-left: 0;
+			padding-right: 4px;
+
+			.subscribe-icon {
+				width: 40px;
+				height: 40px;
+			}
+		}
+	}
+
+	.subscribe__input {
+		max-width: 80%;
+	}
+
+	.section-title {
+		font-size: 42px;
+		line-height: 46px;
+	}
+}
+
+
+
