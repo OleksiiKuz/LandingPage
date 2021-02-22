@@ -1,7 +1,6 @@
 Download and Installation
 To begin watching or correcting this landing, choose one of the following options to get started:
 
-Install via npm: npm i startbootstrap-landing-page
 Fork, Clone, or Download on GitHub: git clone https://github.com/OleksiiKuz/LandingPage.git
 Install dependencies, run "npm i"
 
